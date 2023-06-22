@@ -1,6 +1,9 @@
 package com.webstaurant.pages;
 
+import com.webstaurant.utilities.ConfigurationReader;
 import org.openqa.selenium.By;
+
+import static com.webstaurant.utilities.BrowserUtils.*;
 
 public class CartPage extends Page{
 
