@@ -50,4 +50,10 @@ public class Driver {
         }
 
     }
+
+    public static void navigateBack() {
+
+        driver.navigate().back();
+
+    }
 }

@@ -19,6 +19,10 @@ public class BrowserUtils {
         Driver.closeDriver();
     }
 
+    public static void moveBack(){
+        Driver.navigateBack();
+    }
+
     public static WebElement getElement(By element) {
         return Driver.getDriver().findElement(element);
     }
@@ -62,5 +66,14 @@ public class BrowserUtils {
             return false;
         }
         return true;
+    }
+
+    public static void sleep(int second){
+        second *= 1000;
+        try{
+            Thread.sleep(second);
+        }catch (InterruptedException e){
+
+        }
     }
 }

@@ -47,7 +47,7 @@ public class Test {
                 "WARNING!!! NOT all results contain the word \"" + ConfigurationReader.getProperty("checkWord")
                         + "\"");
 
-        //Add 4 last items to Cart.
+        //Add N last items to Cart.
         cartPage.addProductsToCart();
         cartPage.openCart();
 
